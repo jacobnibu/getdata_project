@@ -41,4 +41,5 @@ extractedData$activity <- names(activityCodes)[match(extractedData$activity, act
 extractedData$subject <- as.factor(extractedData[,1])
 extractedData$activity <- as.factor(extractedData[,2])
 tidyData <- aggregate(extractedData[,c(-1,-2)], by=list(subject=extractedData$subject,activity=extractedData$activity), FUN=mean)
-write.csv(tidyData,"getdata_project\\tidyData.csv")
+write.table(tidyData,"tidyData.txt", row.name=FALSE)
+
