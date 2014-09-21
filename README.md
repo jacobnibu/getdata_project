@@ -17,6 +17,6 @@ The dataset includes the following files:
 To view the data (assuming the files are in current working directory):
 
 ```{r}
-data <- read.table("tidyData.csv", header = TRUE)
+data <- read.table("tidyData.txt", header = TRUE)
 View(data)
 ```
