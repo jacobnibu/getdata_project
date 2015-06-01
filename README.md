@@ -1,4 +1,4 @@
-coursera_getdata_project
+getdata_project
 ========================
 This is a tidy data set of Human Activity Recognition Using Smartphones Dataset. 
 
